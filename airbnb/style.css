@@ -1,0 +1,267 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav-bar, .search, .right-side-bar{
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar{
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: -7%;
+    align-items: center;
+
+    .right-side-bar:hover{
+        width: 63px;
+        margin-left: -5%;
+    }
+}
+
+.icon{
+    margin-left:60px;
+    color: red;
+}
+
+.search{
+    width: 24%;
+    margin-top: -8%;
+    margin-bottom: ;
+    margin-left: -9%;
+
+    .search-bar:hover{
+        box-shadow: 2px 2px;
+        border: 1px solid white;
+    }
+}
+
+.search-bar{
+    position: relative;
+    width: 100%;
+    border: 1px solid lightgray;
+    background-color: white;
+    color: grey;
+    font-weight: 600;
+    border-radius: 25px;
+    box-shadow: -2px -2px;
+    padding: 17px 15px 17px 15px;
+}
+
+.search-icon{
+    position: absolute;
+    margin-left: 20%;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.right-side-bar{
+    border: 1px solid lightgray;
+    width: 50px;
+    border-radius: 25px;
+    margin-top: -8%;
+    padding: 5px 8px 5px 8px;
+    justify-content: space-evenly;
+    margin-left: -4%;
+    margin-right: 3%;
+}
+
+.airbnb-home{
+    margin-top: -7%;
+    margin-right: -10%;
+}
+
+.globe{
+    margin-top: -8%;
+    margin-right: -8%;
+}
+
+.burger{
+    margin: 0px 5px 0px 5px;
+}
+
+
+/* Container */
+
+
+.container{
+    margin-left: 55px;
+
+    .home-heading{
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+}
+
+.rating-link{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    .rating-place, .reviews{
+        text-decoration: underline;
+    }
+}
+
+.rate{
+    display: flex;
+    align-items: center;
+}
+
+.right-side-rating{
+    display: flex;
+    margin-left: 38%;
+    gap: 15px;
+}
+
+.share, .save{
+    display: flex;
+    align-items: center;
+    margin-left:3px ;
+    text-decoration: underline;
+}
+
+.share-span, .save-span{
+    margin-left: 3px;
+    margin-bottom: 4px;
+}
+
+
+/* Container-Images*/
+
+.container-img{
+    display: flex;
+    margin-top: 25px;
+    margin-right: 25px;
+
+    .hotel-1{
+        width: 550px;
+        height: 70vh;
+        border: none;
+        border-radius: 20px 0px 0px 20px;
+        background-size: cover;
+    }
+
+
+    .row-1 img, .row-2 img{
+        width: 285px;
+        height: 34vh;
+        background-size: cover;
+        margin-left: 12px;
+        margin-bottom: 6px;
+    }
+}
+
+.content{
+    margin: 30px 50px;
+    display: flex;
+    gap: 20px;
+
+    .left-content{
+        display: flex;
+        width: 800px;
+    }
+
+    .sticky{
+        height: 85vh;
+        position: sticky;
+        margin-top: 90px;
+        margin-left: 50px;
+        left: 0;
+        width: 330px;
+        border: 1px solid lightgray;
+        background-color: white;
+        border-radius: 5px;
+        text-align: center;
+        box-shadow: 5px 5px 5px 5px lightgray;
+        padding: 15px;
+
+        .section-1{
+            display: flex;
+            height: 10vh;
+            align-items: center;
+
+            .content-sec-1-price{
+                display: flex;
+                align-items: center;
+                margin-left:20% ;
+            }
+
+            .content-rating{
+                display: flex;
+                align-items: center;
+                margin-right: 5px;
+                
+                .c-r-v{
+                    margin-left: 2px;
+                }
+            }
+        }
+
+        .reserve:hover{
+            box-shadow: 5px 5px grey;
+        }
+
+
+        .reserve{
+            background-color: rgb(255, 74, 74);
+            color: white;
+            width: 100%;
+            padding: 10px;
+            font-size: 20px;
+            border: none;
+            border-radius: 25px;
+            margin: 7px 0px 15px 0px;
+        }
+
+        .total-amount, .service-amount, .total-before-tax{
+            margin: 2px 5px 2px 5px;
+            padding: 15px 12px 15px 12px;
+            color: black;
+            font-size: 17px;
+
+            .rupee-1{
+                margin-left: 34%;
+            }
+
+            .rupee-2{
+                margin-left: 45%;
+            }
+
+            .rupee-3{
+                margin-left: 31%;
+            }
+        }
+
+        .check-out{
+            display: flex;
+            font-size: 14px;
+            color: black;
+            gap: 30px;
+            padding: 10px;
+            border: 1px solid lightgray;
+            border-radius: 20px;
+        }
+        
+    }
+}
+
+
+.follow-footer{
+    font-size: 15px;
+    color: grey;
+    margin-top: 50px;
+
+    .footer-div{
+        margin: 20px 0px 30px 0px;
+    }
+
+}
+
+.foot-bi{
+    color: grey;
+    font-size: 14px;
+}
